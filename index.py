@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import gradio as gr
 from pythainlp.tokenize import word_tokenize
 from pythainlp.corpus import thai_stopwords
+import streamlit as st
 
 # ==========================================
 # 1. Custom CSS - High Contrast Minimal Cream
